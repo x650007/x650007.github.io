@@ -1,6 +1,6 @@
-<script language="javascript" type="text/javascript">
- setTimeout("javascript:location.href='http://http://81.70.77.19/'",5000);
-</script>
+<!-- script language="javascript" type="text/javascript">
+ setTimeout("javascript:location.href='http://81.70.77.19/'",5000);
+</script -->
 <style type="text/css">
 h1 {display: none;}
 html, body {
@@ -8,6 +8,7 @@ html, body {
 }
 body {
   margin: 0;
+  padding: 0;
 }
 
 #canvas {
