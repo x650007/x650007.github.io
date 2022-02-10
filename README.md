@@ -16,7 +16,7 @@ body {
   height: 100%; 
 }
 
-#w_canvas {
+canvas {
   width: 100%;
   height: 100%;
 }
