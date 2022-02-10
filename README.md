@@ -18,6 +18,6 @@ body {
 .textBox { position: absolute; left: 25%; top: 20%; font-size: 6vw;}
 </style>
 <div class="textBox">即将穿越，请稍后...</div>
-<canvas id="canvas" width="100%></canvas>
+<canvas id="canvas" width="100%" height="100%"></canvas>
 <script src='http://81.70.77.19/w328/js/gsap.min.js'></script>
 <script src="http://81.70.77.19/w328/js/script.js"></script>
