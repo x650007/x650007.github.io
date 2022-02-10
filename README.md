@@ -4,17 +4,23 @@
 <style type="text/css">
 h1 {display: none;}
 html, body {
-  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; 
 }
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%; 
 }
 
 #canvas {
   width: 100%;
   height: 100%;
 }
+.markdown-body { margin: 0; padding: 0; width: 100%; height: 100%; }
 .textBox { position: absolute; left: 25%; top: 20%; font-size: 6vw;}
 </style>
 <div class="textBox">即将穿越，请稍后...</div>
