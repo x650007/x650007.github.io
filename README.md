@@ -1,13 +1,12 @@
-<!--
 <script language="javascript" type="text/javascript">
  setTimeout("javascript:location.href='http://81.70.77.19/'",5000);
 </script>
--->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
   //window.location.replace("b.html");
-  $("head").children("link").removeAttr("href");
+  $("head").children("link").removeAttr("href"); 
+  $("head").children("title").text("温氏效应 - 做你喜欢的，享·自由！~");
 });
 </script>
 <style type="text/css">
