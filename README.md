@@ -1,6 +1,14 @@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("head").children("title").text("温氏效应 - 做你喜欢的，享·自由!~");
+});
+</script>
+<!--
 <script language="javascript" type="text/javascript">
  setTimeout("javascript:location.href='http://81.70.77.19/'",5000);
 </script>
+-->
 <style type="text/css">
 body {
   background-color: #eee;
