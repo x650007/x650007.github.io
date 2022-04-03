@@ -91,7 +91,8 @@ $(document).ready(function(){
     //     $(".bgImg_img").removeClass("bgImga");
     // });
    // .bgImg_img_transform { transform:scale(1.4); filter:blur(10px);}
-  
+   var year = document.getElementById('site_year');
+   year.innerText = new Date().getFullYear();
 });
 //时间事件
 myformatter(new Date());
@@ -109,12 +110,4 @@ function myformatter(date){
     jQuery(".date_box").html(w_date);
     jQuery(".time_box").html(w_time);
     setTimeout("myformatter(new Date());", 1);
-}
-//IP城市运营商
-function testJson(obj) {
-    document.getElementById("obj_ip").innerHTML += obj.ip;
-    document.getElementById("obj_pro").innerHTML += obj.pro;
-    document.getElementById("obj_city").innerHTML += obj.city;
-    document.getElementById("obj_region").innerHTML += obj.region;
-    document.getElementById("obj_addr").innerHTML += obj.addr;
 }
