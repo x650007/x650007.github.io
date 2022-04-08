@@ -66,6 +66,11 @@ $(document).ready(function(){
         $(".se_list").fadeOut();
     });
 
+    //刷新改变背景图片
+    var random_bg=Math.floor(Math.random()*5+1);
+    var bg='images/bg/'+random_bg+'.jpg';
+    $(".bgImg").attr("src",bg);
+
 
 // 百度搜索：https://www.baidu.com/s?wd=关键字
 // Bing搜索：https://cn.bing.com/search?q=关键字
