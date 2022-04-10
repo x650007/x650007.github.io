@@ -67,7 +67,7 @@ $(document).ready(function(){
     });
 
     //刷新改变背景图片
-    var random_bg=Math.floor(Math.random()*5+1);
+    var random_bg=Math.floor(Math.random()*36+1);
     var bg='images/bg/'+random_bg+'.jpg';
     $(".bgImg").attr("src",bg);
 
